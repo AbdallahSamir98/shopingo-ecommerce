@@ -17,7 +17,7 @@ body{
 }
 
 .productsCol{
-  width: 24% !important;
+  /* width: 24% !important; */
 }
 
 .card-title{
@@ -56,4 +56,28 @@ body{
 
 li{
 list-style: none;
+}
+
+
+
+
+/* navbar */
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(220, 53, 69) /* color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the handle on hover */
 }
