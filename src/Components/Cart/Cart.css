@@ -1,0 +1,15 @@
+.cartInfo{
+background-image: url("../../assets/page-title.jpg");
+
+padding:5rem ;
+
+}
+
+.quantity
+{
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+

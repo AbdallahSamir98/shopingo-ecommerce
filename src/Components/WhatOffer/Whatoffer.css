@@ -1,0 +1,4 @@
+.offerEffect{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adjust the values for the shadow color and blur radius */
+}

@@ -1,0 +1,38 @@
+.home{
+    background-color: #f6f6f6;
+}
+.carousel-control-next,.carousel-control-prev{
+    width: 0%;
+    background-color: rgba(240, 0, 0, 0.4);
+
+}
+
+.carousel-indicators{
+    bottom: -4%;
+}
+.carousel-indicators [data-bs-target] {
+    /* background-color: rgba(0, 0, 0, 0.4); */
+   
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    /* background-size: 75%; */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    border-radius: 50%;
+    color: red !important;
+    margin: 3rem;
+    padding: 1rem;
+}
+.btn1{
+    background-color: rgb(255,112,4)  ; 
+}
+.btn1:hover{
+    background-color: black;
+    color: rgb(255,112,4);
+}
+
+.cursoltext h2{
+    font-size: 3.5rem;
+}
+
