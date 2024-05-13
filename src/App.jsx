@@ -15,6 +15,7 @@ import Checkout from './Components/Checkout/Checkout'
 import Orders from './Components/Orders/Orders'
 import AllBrands from './Components/store/allBrands'
 import Brands from './Components/Brands/Brands'
+import Error from './Components/Error/Error'
 
 const App = () => {
 
@@ -41,6 +42,7 @@ const App = () => {
       {path:'/checkout', element:<Checkout/>},
       {path:'/orders', element:<Orders/>},
       {path:'/brands', element:<Brands/>},
+      {path:'*', element:<Error/>},
 
 
     ]
