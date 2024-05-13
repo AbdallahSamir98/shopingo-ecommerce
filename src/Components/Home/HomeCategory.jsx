@@ -23,7 +23,7 @@ const HomeCategory = () => {
   let slidesToShow = 5;
 
   if (isSmallScreen) {
-    slidesToShow = 1;
+    slidesToShow = 2;
   } else if (isMediumScreen) {
     slidesToShow = 3;
   } else if (isLargeScreen) {
